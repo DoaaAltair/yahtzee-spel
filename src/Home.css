@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Lemon&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;700&family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Lemon&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;700&display=swap');
+
+.home-container {
+    min-height: 100vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.logo {
+    font-family: "Rubik Burned", system-ui;
+    font-size: 150%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-icon {
+    font-size: 24px;
+}
+
+.username {
+    font-size: 18px;
+}
+
+.menu {
+    grid-column: 1 / -1;
+    background-color: #C72727;
+    padding: 10px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-link {
+    color: #fff;
+    font-family: "Modak", sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    text-shadow: 1px 1px #000;
+    margin-right: 30px;
+}
+
+.main-content {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-image {
+    max-width: 300px;
+    height: auto;
+}
+
+.options {
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: #C72727;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    padding: 10px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+    font-family: "Modak", system-ui;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+}
