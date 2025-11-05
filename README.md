@@ -1,4 +1,4 @@
-# 🎲 Yahtzee - Online Dice Game
+# Yahtzee - Online Dice Game
 
 Een moderne, interactieve webapplicatie voor het klassieke Yahtzee-dobbelspel. Gebouwd met React en voorzien van een intuïtieve gebruikersinterface, automatische scoreberekening en gebruikersauthenticatie.
 
@@ -6,7 +6,7 @@ Een moderne, interactieve webapplicatie voor het klassieke Yahtzee-dobbelspel. G
 ![React Router](https://img.shields.io/badge/React%20Router-7.6-orange.svg)
 ![License](https://img.shields.io/badge/License-Private-red.svg)
 
-## 📋 Inhoudsopgave
+## Inhoudsopgave
 
 - [Overzicht](#overzicht)
 - [Features](#features)
@@ -18,13 +18,13 @@ Een moderne, interactieve webapplicatie voor het klassieke Yahtzee-dobbelspel. G
 - [Scripts](#scripts)
 - [Toekomstige Verbeteringen](#toekomstige-verbeteringen)
 
-## 🎯 Overzicht
+## Overzicht
 
 Yahtzee is een volledig functionele digitale versie van het klassieke dobbelspel Yahtzee. Spelers kunnen inloggen, een spel starten, dobbelstenen gooien, scores berekenen en hun voortgang volgen. De applicatie biedt een soepele gebruikerservaring met moderne UI-componenten en responsief design.
 
-## ✨ Features
+## Features
 
-### 🎮 Spel Functionaliteiten
+### Spel Functionaliteiten
 - **Interactief Dobbelspel**: Gooi met vijf dobbelstenen en selecteer welke je wilt vasthouden
 - **Drie Worpen per Beurt**: Maximaal drie worpen per beurt om de beste combinatie te krijgen
 - **Automatische Scoreberekening**: Real-time berekening van alle mogelijke Yahtzee-categorieën
@@ -34,22 +34,22 @@ Yahtzee is een volledig functionele digitale versie van het klassieke dobbelspel
 - **Spelstatus Opslag**: Automatische opslag van spelstatus in localStorage
 - **Nieuwe Beurt Functionaliteit**: Start een nieuwe beurt wanneer je klaar bent
 
-### 👤 Gebruikerservaring
+### Gebruikerservaring
 - **Gebruikersauthenticatie**: Inloggen met gebruikersnaam
 - **Gebruikersprofiel**: Modern profiel-dropdown met avatar
 - **Responsive Design**: Volledig geoptimaliseerd voor desktop, tablet en mobiel
 - **Intuïtieve Navigatie**: Duidelijke menu's en navigatiestructuur
 
-### 📊 Score Management
+### Score Management
 - **Real-time Score Overzicht**: Bekijk alle mogelijke scores voor je huidige worp
 - **Score Categorieën**: Volledige ondersteuning voor alle Yahtzee-categorieën
 - **Score Reset**: Start met een nieuw scoreblok wanneer gewenst
 
-### 📖 Informatie
+### Informatie
 - **Uitgebreide Regels**: Complete handleiding met alle spelregels en puntentelling
 - **Visuele Instructies**: Duidelijke uitleg van het doel en de spelmechanica
 
-## 🛠️ Technologieën
+## Technologieën
 
 Deze applicatie is gebouwd met de volgende technologieën:
 
@@ -60,7 +60,7 @@ Deze applicatie is gebouwd met de volgende technologieën:
 - **LocalStorage API** - Client-side data opslag voor spelstatus
 - **Create React App** - Build tooling en development environment
 
-## 🚀 Installatie
+## Installatie
 
 ### Vereisten
 
@@ -90,7 +90,7 @@ Deze applicatie is gebouwd met de volgende technologieën:
    De applicatie opent automatisch op http://localhost:3000
    ```
 
-## 🎮 Gebruik
+## Gebruik
 
 ### Eerste Keer Gebruiken
 
@@ -109,7 +109,7 @@ Deze applicatie is gebouwd met de volgende technologieën:
 - **Score Kiezen**: Na je laatste worp, bekijk de mogelijke scores op de Scores-pagina
 - **Nieuwe Beurt**: Start een nieuwe beurt wanneer je klaar bent
 
-## 📜 Spelregels
+## Spelregels
 
 ### Doel van het Spel
 Probeer met vijf dobbelstenen de hoogste score te behalen door verschillende combinaties te gooien. Elke speler mag per beurt drie keer gooien en kiest daarna in welke categorie de score wordt genoteerd.
@@ -131,7 +131,7 @@ Probeer met vijf dobbelstenen de hoogste score te behalen door verschillende com
 
 Voor een volledige uitleg van alle regels, bezoek de Regels-pagina in de applicatie.
 
-## 📁 Project Structuur
+## Project Structuur
 
 ```
 yahtzee/
@@ -167,7 +167,7 @@ yahtzee/
 └── README.md
 ```
 
-## 📝 Scripts
+## Scripts
 
 ### Development
 ```bash
@@ -193,7 +193,7 @@ npm run eject
 ```
 **Let op:** Dit is een one-way operatie. Eject verwijdert de single build dependency en kopieert alle configuratiebestanden naar je project zodat je volledige controle hebt.
 
-## 🎨 Design Features
+## Design Features
 
 - **Moderne UI**: Schone, professionele interface met moderne design principes
 - **Responsive Layout**: Volledig geoptimaliseerd voor alle schermformaten
@@ -201,22 +201,22 @@ npm run eject
 - **Gebruiksvriendelijke Navigatie**: Duidelijke menu's en navigatiestructuur
 - **Profiel Dropdown**: Modern profielmenu met avatar en gebruikersinformatie
 
-## 🔮 Toekomstige Verbeteringen
+## Toekomstige Verbeteringen
 
-- [ ] Multiplayer functionaliteit
-- [ ] Statistieken en voortgang tracking
-- [ ] Geluidseffecten en animaties
-- [ ] Verschillende thema's en personalisatie opties
-- [ ] Export/import van speldata
+-  Multiplayer functionaliteit
+-  Statistieken en voortgang tracking
+-  Geluidseffecten en animaties
+-  Verschillende thema's en personalisatie opties
+-  Export/import van speldata
 
-## 📄 Licentie
+## Licentie
 
 Dit project is privé eigendom en niet beschikbaar voor publiek gebruik.
 
-## 👨‍💻 Auteur
+## Auteur
 
 Ontwikkeld door Doaa Altair als onderdeel van een persoonlijk project voor educatieve doeleinden.
 
 ---
 
-**Veel plezier met Yahtzee! 🎲🎯**
+**Veel plezier met Yahtzee!**
